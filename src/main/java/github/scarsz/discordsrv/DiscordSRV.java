@@ -519,8 +519,8 @@ public class DiscordSRV extends JavaPlugin {
             Plugin plugMan = Bukkit.getPluginManager().getPlugin("PlugMan");
             try {
                 List<String> ignoredPlugins = (List<String>) plugMan.getClass().getMethod("getIgnoredPlugins").invoke(plugMan);
-                if (!ignoredPlugins.contains("DiscordSRV")) {
-                    ignoredPlugins.add("DiscordSRV");
+                if (!ignoredPlugins.contains(getName())) {
+                    ignoredPlugins.add(getName());
                 }
             } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException ignored) {}
         }

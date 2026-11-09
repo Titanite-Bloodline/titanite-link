@@ -1,4 +1,5 @@
-name: DiscordSRV
+name: TitaniteLink
+provides: [DiscordSRV]
 version: ${version}
 description: The most powerful, configurable, open-source Discord bridge plugin out there.
 author: Scarsz
