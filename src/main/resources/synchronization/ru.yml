@@ -33,7 +33,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: Время (в минутах) - как часто DiscordSRV будет синхронизировать роли и группы игроков.
 # GroupRoleSynchronizationCycleCompletely: должна ли синхронизация, запущенная по таймеру, синхронизировать каждого участника на серверах Discord ботов
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

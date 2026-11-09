@@ -34,7 +34,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: nombre de minutes entre le déclenchement de la synchronisation pour tous les joueurs en ligne
 # GroupRoleSynchronizationCycleCompletely: si les synchronisations effectuées sur un minuteur doivent synchroniser ou non chaque membre du serveur Discord
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

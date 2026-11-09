@@ -30,7 +30,7 @@ BotToken: "BOTTOKEN"
 Channels: {"global": "000000000000000000"}
 
 # Numeryczny identyfikator kanału konsoli (NIE NAZWA), pozostaw puste, aby całkowicie wyłączyć kanał konsoli
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: ""
 
 # Link z zaproszeniem pokazywany graczom podczas korzystania z /discord oraz w wiadomości wyświetlanej graczom odłączonym, gdy wymuszane jest łączenie
 DiscordInviteLink: "https://discord.gg/zmieńtowconfigu.yml"
@@ -131,16 +131,16 @@ StatusUpdateRateInMinutes: 2
 DiscordChatChannelDiscordToMinecraft: true
 DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
-DiscordChatChannelTranslateMentions: true
-DiscordChatChannelAllowedMentions: [user, channel, emote]
+DiscordChatChannelTranslateMentions: false
+DiscordChatChannelAllowedMentions: []
 DiscordChatChannelEmojiBehavior: "name"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelPrefixActsAsBlacklist: false
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
-DiscordChatChannelBroadcastDiscordMessagesToConsole: true
+DiscordChatChannelRolesAllowedToUseColorCodesInChat: []
+DiscordChatChannelBroadcastDiscordMessagesToConsole: false
 DiscordChatChannelRequireLinkedAccount: false
-DiscordChatChannelBlockBots: false
+DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockWebhooks: true
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelBlockedRolesAsWhitelist: false

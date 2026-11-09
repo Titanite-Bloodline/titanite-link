@@ -30,7 +30,7 @@ BotToken: "BOTTOKEN"
 Channels: {"global": "000000000000000000"}
 
 # コンソールチャンネルのID（数値。チャンネル名ではありません)。コンソールチャンネルを無効にする場合は、空のままにしてください。
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: ""
 
 # /discord でプレイヤーに表示される招待リンク、およびアカウント連携を強制する際にまだ連携していないプレイヤーに表示される招待リンク
 DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
@@ -132,16 +132,16 @@ StatusUpdateRateInMinutes: 2
 DiscordChatChannelDiscordToMinecraft: true
 DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
-DiscordChatChannelTranslateMentions: true
-DiscordChatChannelAllowedMentions: [user, channel, emote]
+DiscordChatChannelTranslateMentions: false
+DiscordChatChannelAllowedMentions: []
 DiscordChatChannelEmojiBehavior: "name"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelPrefixActsAsBlacklist: false
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
-DiscordChatChannelBroadcastDiscordMessagesToConsole: true
+DiscordChatChannelRolesAllowedToUseColorCodesInChat: []
+DiscordChatChannelBroadcastDiscordMessagesToConsole: false
 DiscordChatChannelRequireLinkedAccount: false
-DiscordChatChannelBlockBots: false
+DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockWebhooks: true
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelBlockedRolesAsWhitelist: false

@@ -34,7 +34,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: liczba minut między wielokrotnym uruchamianiem synchronizacji dla wszystkich graczy online
 # GroupRoleSynchronizationCycleCompletely: czy synchronizacje działające na zegarze powinny synchronizować każdego członka w botach Discord Servers
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

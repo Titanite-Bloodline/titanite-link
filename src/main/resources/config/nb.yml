@@ -30,7 +30,7 @@ BotToken: "BOTTOKEN"
 Channels: {"global": "000000000000000000"}
 
 # Kanal-ID-en for konsollkanelen (IKKE NAVNET TIL KANALEN), la stå eller sett "000000000000000000" for å skru av
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: ""
 
 # Invitasjonslenke som skal vises til spillere som bruker /discord og i meldingen som vises til spillere som ikke har benyttet seg av kontolinking hvis linking er påkrevd
 DiscordInviteLink: "https://discord.gg/endredenneiconfig.yml"
@@ -131,16 +131,16 @@ StatusUpdateRateInMinutes: 2
 DiscordChatChannelDiscordToMinecraft: true
 DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
-DiscordChatChannelTranslateMentions: true
-DiscordChatChannelAllowedMentions: [user, channel, emote]
+DiscordChatChannelTranslateMentions: false
+DiscordChatChannelAllowedMentions: []
 DiscordChatChannelEmojiBehavior: "name"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelPrefixActsAsBlacklist: false
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
-DiscordChatChannelBroadcastDiscordMessagesToConsole: true
+DiscordChatChannelRolesAllowedToUseColorCodesInChat: []
+DiscordChatChannelBroadcastDiscordMessagesToConsole: false
 DiscordChatChannelRequireLinkedAccount: false
-DiscordChatChannelBlockBots: false
+DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockWebhooks: true
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelBlockedRolesAsWhitelist: false

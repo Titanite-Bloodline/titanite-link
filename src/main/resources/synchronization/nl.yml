@@ -33,7 +33,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: aantal minuten tussen het herhaaldelijk activeren van synchronisatie voor alle online spelers
 # GroupRoleSynchronizationCycleCompletely: om synkroniseringer som kjører på en tidtaker, skal synkronisere hvert medlem i Discord-serverne
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

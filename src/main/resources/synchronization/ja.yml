@@ -33,7 +33,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: すべてのオンラインプレイヤーの同期が繰り返し発生する間隔(分)
 # GroupRoleSynchronizationCycleCompletely: タイマーで実行されている同期がボットのDiscordサーバーのすべてのメンバーを同期する必要があるかどうか
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

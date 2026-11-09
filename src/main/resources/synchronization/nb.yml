@@ -34,7 +34,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: antall minutter mellom regelmessige synkroniseringer for alle påloggede spillere
 # GroupRoleSynchronizationCycleCompletely: om tidsbaserte synkroniseringer skal synkronisere alle Discord-serverene botten er medlem i
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"klarert": "000000000000000000", "veldigviktigperson": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

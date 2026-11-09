@@ -34,7 +34,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: 몇 분마다 동기화할지 설정합니다.
 # GroupRoleSynchronizationCycleCompletely: 동기화 타이머가 모든 사용자를 대상으로 동기화를 실행할지 설정합니다.
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false
