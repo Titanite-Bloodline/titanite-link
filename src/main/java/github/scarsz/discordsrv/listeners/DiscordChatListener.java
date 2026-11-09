@@ -509,7 +509,8 @@ public class DiscordChatListener extends ListenerAdapter {
     private final boolean useFeedbackForwardingSender = PaperForwardingCommandSender.isSenderExists();
 
     private boolean processConsoleCommand(GuildMessageReceivedEvent event, String message) {
-        if (!DiscordSRV.config().getBoolean("DiscordChatChannelConsoleCommandEnabled")) return false;
+        // Titanite: "!c" ran console commands for roles named Owner or Developer, which skips the SMP's no-OP rule and its audit log. Off for good.
+        if (true) return false;
 
         String prefix = DiscordSRV.config().getString("DiscordChatChannelConsoleCommandPrefix");
         if (prefix.isEmpty()) return false;

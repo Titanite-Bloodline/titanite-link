@@ -191,7 +191,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: tid i sekunder, indtil et sendt kommandooutput automatisk fjernes af botten. sat til 0 for at deaktivere udløb.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: om meddelelsen fra den person, der oprindeligt udstedte kommandoen, skal slettes
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Ejer", "Udvikler"]

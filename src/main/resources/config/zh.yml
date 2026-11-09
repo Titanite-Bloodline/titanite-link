@@ -188,7 +188,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: bot自動清除命令的時間 設定為0則不啟用此功能
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: whether to delete the message of the person that originally issued the command
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]

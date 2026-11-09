@@ -190,7 +190,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: czas w sekundach, po jakim dane wyjściowe wysłanego polecenia są automatycznie usuwane przez bota. ustaw na 0, aby wyłączyć wygaśnięcie.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: czy usunąć wiadomość osoby, która pierwotnie wydała polecenie
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]

@@ -187,7 +187,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: temps en secondes avant qu'une commande soit retirée après avoir été envoyée.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: suppression automatique ou non d'une commande après avoir été envoyée.
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]

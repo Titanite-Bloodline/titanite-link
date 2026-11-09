@@ -190,7 +190,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: tiempo en segundos hasta que el bot elimine automáticamente una respuesta de comando enviada. establecer a 0 para desactivar la caducidad.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: si eliminar o no el mensaje de la persona que originalmente emitió el comando
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Desarrollador"]

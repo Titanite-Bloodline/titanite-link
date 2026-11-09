@@ -189,7 +189,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: 봇이 명령어 실행 결과를 몇초 뒤에 자동으로 삭제할지 설정합니다. 0으로 설정하면 비활성화됩니다.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: 명령어를 사용한 원본 메시지를 삭제할지 설정합니다.
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]

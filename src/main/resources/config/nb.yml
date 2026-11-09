@@ -190,7 +190,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: Tid i sekunder før en resultated fra en kommando blir slettet. Sett til 0 sekunder for å skru av sletting
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: Om meldingen fra personen som utførte kommandoen også skal bli slettet
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Eier", "Utvikler"]

@@ -192,7 +192,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: 送信されたコマンド出力がボットによって自動的に削除されるまでの時間（秒）。有効期限を無効にするには0に設定します。
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: コマンドを発行した人のメッセージを削除するかどうか
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]

@@ -190,7 +190,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: Tijd in seconden voordat een command automatisch verwijderd moet worden. Verander naar "0" om het uit te schakelen.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: Of het bericht van de persoon die als eerst de command uivoerde ook verwijderd moet worden.
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Eigenaar", "Developer"]

@@ -190,7 +190,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: Zeit in Sekunden bis die Befehlsausgabe vom Bot aus dem Chat entfernt wird, zum Deaktivieren auf 0 setzen
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: gibt an, ob auch der eingegebene Befehl vom Bot gelöscht werden soll
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]

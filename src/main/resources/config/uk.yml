@@ -190,7 +190,7 @@ DiscordConsoleChannelBlockBots: true
 # DiscordChatChannelConsoleCommandExpiration: час у секундах, поки результат команди буде видалено ботом. Встановіть значення 0, щоб вимкнути термін дії.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: видалити або не видаляти повідомлення гравця, який виконав команду
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Owner", "Developer"]
