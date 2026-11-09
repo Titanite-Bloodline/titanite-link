@@ -16,7 +16,7 @@ plugins {
 group = "com.discordsrv"
 val minecraftVersion = project.properties["minecraftVersion"]!!.toString()
 val paperApiVersion = project.properties["paperVersion"]!!.toString()
-val targetJavaVersion = 1.8
+val targetJavaVersion = 25
 
 java {
     val javaVersion = JavaVersion.toVersion(targetJavaVersion)
@@ -231,8 +231,8 @@ dependencies {
     compileOnlyApi("org.jetbrains:annotations:23.0.0")
 
     // Lombok
-    compileOnly("org.projectlombok:lombok:1.18.38")
-    annotationProcessor("org.projectlombok:lombok:1.18.38")
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
 
     // Apache Commons, guava
     implementation("commons-io:commons-io:2.11.0")
