@@ -1574,7 +1574,7 @@ public class DiscordSRV extends JavaPlugin {
             if (invalidBotToken) {
                 sender.sendMessage(ChatColor.RED + "DiscordSRV is disabled: your bot token is invalid.");
                 sender.sendMessage(ChatColor.RED + "Please enter a valid token into your config.yml " +
-                        "(" + ChatColor.GRAY + "/plugins/DiscordSRV/config.yml" + ChatColor.RED + ")" +
+                        "(" + ChatColor.GRAY + "/plugins/" + getName() + "/config.yml" + ChatColor.RED + ")" +
                         " and restart your server to get DiscordSRV to work.");
             } else if (DiscordDisconnectListener.mostRecentCloseCode == CloseCode.DISALLOWED_INTENTS) {
                 sender.sendMessage(ChatColor.RED + "DiscordSRV is disabled: your DiscordSRV bot is lacking required intents.");
