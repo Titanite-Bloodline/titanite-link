@@ -1,3 +1,36 @@
+# Titanite Link
+
+Titanite Link is the Titanite SMP's fork of [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV) 1.30.5. It links Minecraft chat to Discord and Discord accounts to Minecraft accounts, and it runs on Paper 26.3 with Java 25.
+
+## What this fork changes
+
+The `titanite` branch starts at upstream tag `v1.30.5`. Only these things differ, so upstream fixes still merge cleanly.
+
+- **Plugin name.** The plugin is called `TitaniteLink` and declares `provides: [DiscordSRV]`, so plugins that depend on DiscordSRV still load. The Java packages keep their upstream names, so the DiscordSRV API works unchanged. The `/discord` command stays. The data folder is `plugins/TitaniteLink`, so an old `plugins/DiscordSRV` folder is not picked up.
+- **No console channel.** `getConsoleChannel()` always returns nothing, whatever `DiscordConsoleChannelId` says. Discord messages can never run console commands, and the server console is never forwarded to Discord. The console shows player IP addresses when people log in, and a console channel is a way for anyone with channel access to run commands as the server.
+- **Java 25.** The build targets Java 25 and uses Lombok 1.18.42, because the older Lombok cannot read Java 25 class files.
+- **Version and jar name.** The jar is named `TitaniteLink-<version>.jar` (for example `TitaniteLink-1.30.5-titanite.1.jar`). The version is the upstream version plus `-titanite.N`.
+
+Not changed, so you know: the chat-channel console command feature (`DiscordChatChannelConsoleCommandEnabled`, off by default) still exists, and the update checker still talks to upstream's GitHub (`UpdateCheckDisabled: true` in `config.yml` turns it off).
+
+## Licence
+
+DiscordSRV is GPL-3.0 and so is this fork. The [LICENSE](LICENSE) file and the upstream copyright headers stay as they are.
+
+## Building
+
+You need JDK 25. The Gradle wrapper does the rest.
+
+```
+./gradlew build -x test
+```
+
+The jar lands in `build/libs/`. Use the one without `-original`, `-sources` or `-javadoc` in its name.
+
+## The upstream README
+
+What follows is the upstream README.
+
 ![](https://lol.scarsz.me/AiKvTS/Logo-filled-stroke.png "DiscordSRV Logo")
 
 [![](https://discord.com/api/guilds/135634590575493120/widget.png)](https://discordsrv.com/discord "Discord")
