@@ -119,6 +119,12 @@ public class ApiManager extends ListenerAdapter {
      * @param listener the instance to unsubscribe DiscordSRV events from
      * @return whether the instance was a listener
      */
+    /** Titanite: true while a listener of this exact class is subscribed, so the relay can check its gate is attached. */
+    public boolean hasListener(String className) {
+        for (Object l : apiListeners) if (l.getClass().getName().equals(className)) return true;
+        return false;
+    }
+
     public boolean unsubscribe(Object listener) {
         DiscordSRV.info(LangUtil.InternalMessage.API_LISTENER_UNSUBSCRIBED.toString()
                 .replace("{listenername}", listener.getClass().getName())

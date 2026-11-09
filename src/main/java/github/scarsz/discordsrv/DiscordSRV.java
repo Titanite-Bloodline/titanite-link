@@ -1891,9 +1891,10 @@ public class DiscordSRV extends JavaPlugin {
     }
 
     public void broadcastMessageToMinecraftServer(String channel, Component message, User author) {
-        // Titanite: fail closed. Titanite's gate on DiscordGuildMessagePreProcessEvent is the only filter, so with no Titanite there is no gate and nothing may reach the game.
-        if (!Bukkit.getPluginManager().isPluginEnabled("Titanite")) {
-            DiscordSRV.debug(Debug.DISCORD_TO_MINECRAFT, "Dropping Discord message because the Titanite plugin is not enabled");
+        // Titanite: fail closed. Titanite's gate (LinkHook, on DiscordGuildMessagePreProcessEvent) is the only filter that keeps
+        // muted and banned players silent, so a line passes only while that gate is subscribed, whatever stopped it otherwise.
+        if (!Bukkit.getPluginManager().isPluginEnabled("Titanite") || !api.hasListener("family.titanite.smp.discord.LinkHook")) {
+            DiscordSRV.debug(Debug.DISCORD_TO_MINECRAFT, "Dropping Discord message because Titanite's chat gate is not attached");
             return;
         }
 
