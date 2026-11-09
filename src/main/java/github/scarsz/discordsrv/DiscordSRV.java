@@ -299,12 +299,8 @@ public class DiscordSRV extends JavaPlugin {
                         : null;
     }
     public TextChannel getConsoleChannel() {
-        if (jda == null) return null;
-
-        String consoleChannel = config.getString("DiscordConsoleChannelId");
-        return StringUtils.isNotBlank(consoleChannel) && StringUtils.isNumeric(consoleChannel)
-                ? DiscordUtil.getTextChannelById(consoleChannel)
-                : null;
+        // Titanite: never return a console channel, so Discord can't run commands and the console (player IPs) is never forwarded, whatever the config says.
+        return null;
     }
     public TextChannel getDestinationTextChannelForGameChannelName(String gameChannelName) {
         Map.Entry<String, String> entry = channels.entrySet().stream().filter(e -> e.getKey().equals(gameChannelName)).findFirst().orElse(null);
