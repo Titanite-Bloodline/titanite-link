@@ -13,7 +13,9 @@ The `titanite` branch starts at upstream tag `v1.30.5`. Only these things differ
 - **Java 25.** The build targets Java 25 and uses Lombok 1.18.42, because the older Lombok cannot read Java 25 class files.
 - **Version and jar name.** The jar is named `TitaniteLink-<version>.jar` (for example `TitaniteLink-1.30.5-titanite.1.jar`). The version is the upstream version plus `-titanite.N`.
 
-Not changed, so you know: the chat-channel console command feature (`DiscordChatChannelConsoleCommandEnabled`, a `!c` prefix) is still on by default upstream, and the update checker still talks to upstream’s GitHub (`UpdateCheckDisabled: true` in `config.yml` turns it off). Turn the console command feature off in `config.yml` unless you want it.
+- **`!c` console commands off.** Upstream let Discord roles named Owner or Developer run any console command by typing `!c` in the chat channel. The fork drops it in code and defaults `DiscordChatChannelConsoleCommandEnabled` to `false`.
+
+Not changed, so you know: the update checker still talks to upstream’s GitHub (`UpdateCheckDisabled: true` in `config.yml` turns it off).
 
 ## Licence
 
